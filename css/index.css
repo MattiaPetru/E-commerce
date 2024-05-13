@@ -25,7 +25,7 @@ main {
   flex-wrap: wrap;
 }
 
-//PRODOTTI
+/*PRODOTTI*/
 .products {
   height: 91vh;
   min-width: 260px;
@@ -57,7 +57,7 @@ main {
   margin: 0;
 }
 
-//ICONE LISTA PRODOTTI
+/*ICONE LISTA PRODOTTI*/
 .listaProdotti ion-icon {
   font-size: 1.2rem;
   margin-top: 3px;
@@ -84,7 +84,7 @@ main {
   margin-block: 5px;
 }
 
-//CARD PRODOTTI
+/*CARD PRODOTTI*/
 .card_container {
   margin: 20px auto;
   display: grid;
@@ -103,7 +103,7 @@ main {
 }
 .card img {
   width: 100%;
-  aspect-ratio: 1/1.1; //usato per avere una visuale costante in diverse dimensione di visualizzazione
+  aspect-ratio: 1/1.1; /*usato per avere una visuale costante in diverse dimensione di visualizzazione*/
 }
 .card:hover {
   transform: scale(1.05);
@@ -127,7 +127,7 @@ main {
   font-size: 20px;
 }
 
-//sezione dei dettagli dei prodotti
+/*sezione dei dettagli dei prodotti*/
 .dettagliSfondo {
   background: center;
   position: relative;
@@ -144,7 +144,7 @@ main {
   gap: 20px;
   position: relative;
   z-index: 1;
-  word-wrap: break-word; //per andare a capo se il testo è più lungo del contenitore
+  word-wrap: break-word; /*per andare a capo se il testo è più lungo del contenitore*/
 }
 .dettagli_img {
   padding: 0;
